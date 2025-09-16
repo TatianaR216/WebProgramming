@@ -1,0 +1,71 @@
+<form action="Coffee Order Form" method="post">
+  <p>
+    <label for="name">Customer Name:</label>
+    <input type="text" id="name" name="customer name" />
+  </p>
+  <p>
+    <label for="mail">Email:</label>
+    <input type="email" id="mail" name="user_name" />
+  </p>
+  <p>
+     <select id="simple" name="simple">
+     <option>Latte</option>
+     <option selected>Espresso</option>
+     <option>Americano</option>
+     </select>
+  </p>
+  <fieldset>
+    <legend>Coffee Size</legend>
+    <p>
+      <input type="radio" name="size" id="size_1" value="small" />
+      <label for="size_1">Small</label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="size_2" value="medium" />
+      <label for="size_2">Medium</label>
+    </p>
+    <p>
+      <input type="radio" name="size" id="size_3" value="large" />
+      <label for="size_3">Large</label>
+    </p>
+  </fieldset>
+  <fieldset>
+  <legend>Select Coffee Additions</legend>
+  <ul>
+    <li>
+      <label for="Whipped Cream">Whipped Cream</label>
+      <input
+        type="checkbox"
+        id="Whipped Cream"
+        name="Add-On"
+        value="Whipped Cream"
+        checked />
+    </li>
+    <li>
+      <label for="Extra Shot">Extra Shot</label>
+      <input 
+      type="checkbox" 
+      id="Extra Shot" 
+      name="Add-On" 
+      value="Extra Shot" />
+    </li>
+    <li>
+      <label for="Almond Milk">Almond Milk</label>
+      <input 
+      type="checkbox" 
+      id="Almond Milk" 
+      name="Add-On" 
+      value="Almond Milk" />
+    </li>
+  </ul>
+</fieldset>
+  <p>
+    <label for="inst">Special Instructions:</label>
+    <textarea id="inst" name="user_message"></textarea>
+  </p> 
+  <p class="button">
+  <button type="submit">Submit Order</button>
+</p>
+</form>
+  
+     
