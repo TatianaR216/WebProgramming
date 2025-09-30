@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Styling Text and Fonts</title>
+  <style>
+  font-family: sans-serif;
+  </style>
+</head>
+<body>
+  <header>
+    <h1> p {
+         text-shadow:
+        1px 1px 1px red,
+        2px 2px 2px red; 
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold; }
+        Welcome to Text Styling</h1>
+  </header>
+  <main>
+    <section>
+      <h2>p {
+        font-size: 2rem;
+        font-weight: lighter;}
+        Font Properties</h2>
+      <p> p{
+      text-align: justify;}
+      This paragraph demonstrates the use of font-family, font-size, and font-weight properties.</p>
+    </section>
+    <section>
+      <h2>Text Alignment</h2>
+      <p> p {
+      text-align: justify;}
+      This paragraph demonstrates how to align text using the text-align property.</p>
+    </section>
+    <section>
+      <h2>text-transform: uppercase; Transforming Text</h2>
+      <p> p {
+      text-align: justify; 
+      text-transform: capitalize; }
+      This paragraph demonstrates text transformation with uppercase, lowercase, and capitalization.</p>
+    </section>
+    <section>
+      <h2>Text Shadow</h2>
+      <p> p {
+       text-shadow:
+     1px 1px 1px gray,
+     2px 2px 2px gray;
+      text-align: justify; }
+      This paragraph demonstrates how to add shadow effects to text.</p>
+    </section>
+    <section>
+      <h2>Lists</h2>
+      <ul> {
+        list-style-image: url("star.svg"); }
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+      </ul>
+      <ol> {
+        list-style-type: upper-roman;
+
+        <li>First Step</li>
+        <li>Second Step</li>
+        <li>Third Step</li> }
+      </ol>
+    </section>
+  </main>
+  <footer>
+  p { 
+    text-align: center; }
+    <p>Styling Text and Fonts Lab © 2025</p>
+  </footer>
+</body>
+</html>
